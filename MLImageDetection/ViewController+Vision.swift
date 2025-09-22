@@ -9,8 +9,8 @@ import UIKit
 import Vision
 
 extension ViewController {
-    var detectionRequest: VNDetectRectanglesRequest {
-        let request = VNDetectRectanglesRequest{ (request, error) in
+    var detectionRequest: VNDetectTextRectanglesRequest {
+        let request = VNDetectTextRectanglesRequest{ (request, error) in
             if let error = error {
                 print(error)
                 return
@@ -20,7 +20,7 @@ extension ViewController {
             }
                 
         }
-        request.quadratureTolerance = 45.0
+        request.reportCharacterBoxes = true
         return request
     }
     
