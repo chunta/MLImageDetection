@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CD86FBCA2E804CDF007DDEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD86FBAB2E804CDE007DDEB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD86FBB22E804CDF007DDEB0;
+			remoteInfo = MLImageDetection;
+		};
+		CD86FBD42E804CDF007DDEB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD86FBAB2E804CDE007DDEB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD86FBB22E804CDF007DDEB0;
+			remoteInfo = MLImageDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD86FBB32E804CDF007DDEB0 /* MLImageDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLImageDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD86FBC92E804CDF007DDEB0 /* MLImageDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLImageDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD86FBD32E804CDF007DDEB0 /* MLImageDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLImageDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CD86FBDB2E804CDF007DDEB0 /* Exceptions for "MLImageDetection" folder in "MLImageDetection" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CD86FBB22E804CDF007DDEB0 /* MLImageDetection */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD86FBB52E804CDF007DDEB0 /* MLImageDetection */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CD86FBDB2E804CDF007DDEB0 /* Exceptions for "MLImageDetection" folder in "MLImageDetection" target */,
+			);
+			path = MLImageDetection;
+			sourceTree = "<group>";
+		};
+		CD86FBCC2E804CDF007DDEB0 /* MLImageDetectionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MLImageDetectionTests;
+			sourceTree = "<group>";
+		};
+		CD86FBD62E804CDF007DDEB0 /* MLImageDetectionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MLImageDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD86FBB02E804CDF007DDEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86FBC62E804CDF007DDEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86FBD02E804CDF007DDEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD86FBAA2E804CDE007DDEB0 = {
+			isa = PBXGroup;
+			children = (
+				CD86FBB52E804CDF007DDEB0 /* MLImageDetection */,
+				CD86FBCC2E804CDF007DDEB0 /* MLImageDetectionTests */,
+				CD86FBD62E804CDF007DDEB0 /* MLImageDetectionUITests */,
+				CD86FBB42E804CDF007DDEB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD86FBB42E804CDF007DDEB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD86FBB32E804CDF007DDEB0 /* MLImageDetection.app */,
+				CD86FBC92E804CDF007DDEB0 /* MLImageDetectionTests.xctest */,
+				CD86FBD32E804CDF007DDEB0 /* MLImageDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD86FBB22E804CDF007DDEB0 /* MLImageDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD86FBDC2E804CDF007DDEB0 /* Build configuration list for PBXNativeTarget "MLImageDetection" */;
+			buildPhases = (
+				CD86FBAF2E804CDF007DDEB0 /* Sources */,
+				CD86FBB02E804CDF007DDEB0 /* Frameworks */,
+				CD86FBB12E804CDF007DDEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD86FBB52E804CDF007DDEB0 /* MLImageDetection */,
+			);
+			name = MLImageDetection;
+			packageProductDependencies = (
+			);
+			productName = MLImageDetection;
+			productReference = CD86FBB32E804CDF007DDEB0 /* MLImageDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD86FBC82E804CDF007DDEB0 /* MLImageDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD86FBE12E804CDF007DDEB0 /* Build configuration list for PBXNativeTarget "MLImageDetectionTests" */;
+			buildPhases = (
+				CD86FBC52E804CDF007DDEB0 /* Sources */,
+				CD86FBC62E804CDF007DDEB0 /* Frameworks */,
+				CD86FBC72E804CDF007DDEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD86FBCB2E804CDF007DDEB0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD86FBCC2E804CDF007DDEB0 /* MLImageDetectionTests */,
+			);
+			name = MLImageDetectionTests;
+			packageProductDependencies = (
+			);
+			productName = MLImageDetectionTests;
+			productReference = CD86FBC92E804CDF007DDEB0 /* MLImageDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD86FBD22E804CDF007DDEB0 /* MLImageDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD86FBE42E804CDF007DDEB0 /* Build configuration list for PBXNativeTarget "MLImageDetectionUITests" */;
+			buildPhases = (
+				CD86FBCF2E804CDF007DDEB0 /* Sources */,
+				CD86FBD02E804CDF007DDEB0 /* Frameworks */,
+				CD86FBD12E804CDF007DDEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD86FBD52E804CDF007DDEB0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD86FBD62E804CDF007DDEB0 /* MLImageDetectionUITests */,
+			);
+			name = MLImageDetectionUITests;
+			packageProductDependencies = (
+			);
+			productName = MLImageDetectionUITests;
+			productReference = CD86FBD32E804CDF007DDEB0 /* MLImageDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD86FBAB2E804CDE007DDEB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					CD86FBB22E804CDF007DDEB0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					CD86FBC82E804CDF007DDEB0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = CD86FBB22E804CDF007DDEB0;
+					};
+					CD86FBD22E804CDF007DDEB0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = CD86FBB22E804CDF007DDEB0;
+					};
+				};
+			};
+			buildConfigurationList = CD86FBAE2E804CDE007DDEB0 /* Build configuration list for PBXProject "MLImageDetection" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD86FBAA2E804CDE007DDEB0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD86FBB42E804CDF007DDEB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD86FBB22E804CDF007DDEB0 /* MLImageDetection */,
+				CD86FBC82E804CDF007DDEB0 /* MLImageDetectionTests */,
+				CD86FBD22E804CDF007DDEB0 /* MLImageDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD86FBB12E804CDF007DDEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86FBC72E804CDF007DDEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86FBD12E804CDF007DDEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD86FBAF2E804CDF007DDEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86FBC52E804CDF007DDEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86FBCF2E804CDF007DDEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD86FBCB2E804CDF007DDEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD86FBB22E804CDF007DDEB0 /* MLImageDetection */;
+			targetProxy = CD86FBCA2E804CDF007DDEB0 /* PBXContainerItemProxy */;
+		};
+		CD86FBD52E804CDF007DDEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD86FBB22E804CDF007DDEB0 /* MLImageDetection */;
+			targetProxy = CD86FBD42E804CDF007DDEB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD86FBDD2E804CDF007DDEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MLImageDetection/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mildgrind.icefuse.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = fusedev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD86FBDE2E804CDF007DDEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MLImageDetection/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mildgrind.icefuse.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = fusedev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD86FBDF2E804CDF007DDEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6P7LJS7G56;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD86FBE02E804CDF007DDEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6P7LJS7G56;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD86FBE22E804CDF007DDEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6P7LJS7G56;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mildgrind.MLImageDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLImageDetection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MLImageDetection";
+			};
+			name = Debug;
+		};
+		CD86FBE32E804CDF007DDEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6P7LJS7G56;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mildgrind.MLImageDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLImageDetection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MLImageDetection";
+			};
+			name = Release;
+		};
+		CD86FBE52E804CDF007DDEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6P7LJS7G56;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mildgrind.MLImageDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLImageDetection;
+			};
+			name = Debug;
+		};
+		CD86FBE62E804CDF007DDEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6P7LJS7G56;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mildgrind.MLImageDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLImageDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD86FBAE2E804CDE007DDEB0 /* Build configuration list for PBXProject "MLImageDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD86FBDF2E804CDF007DDEB0 /* Debug */,
+				CD86FBE02E804CDF007DDEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD86FBDC2E804CDF007DDEB0 /* Build configuration list for PBXNativeTarget "MLImageDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD86FBDD2E804CDF007DDEB0 /* Debug */,
+				CD86FBDE2E804CDF007DDEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD86FBE12E804CDF007DDEB0 /* Build configuration list for PBXNativeTarget "MLImageDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD86FBE22E804CDF007DDEB0 /* Debug */,
+				CD86FBE32E804CDF007DDEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD86FBE42E804CDF007DDEB0 /* Build configuration list for PBXNativeTarget "MLImageDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD86FBE52E804CDF007DDEB0 /* Debug */,
+				CD86FBE62E804CDF007DDEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD86FBAB2E804CDE007DDEB0 /* Project object */;
+}
