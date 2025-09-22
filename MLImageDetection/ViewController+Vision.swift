@@ -9,18 +9,18 @@ import UIKit
 import Vision
 
 extension ViewController {
-    var detectionRequest: VNDetectRectanglesRequest {
-        let request = VNDetectRectanglesRequest{ (request, error) in
+    var detectionRequest: VNDetectFaceRectanglesRequest {
+        let request = VNDetectFaceRectanglesRequest{ (request, error) in
             if let error = error {
                 print(error)
                 return
             } else {
-                guard let observations = request.results as? [VNRectangleObservation] else { return }
+                guard let observations = request.results as? [VNFaceObservation] else { return }
                 self.visualizeObservations(observations)
             }
                 
         }
-        request.quadratureTolerance = 45.0
+        
         return request
     }
     
