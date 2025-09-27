@@ -12,6 +12,8 @@
 		37F41EFB21654BE300118C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F41EF921654BE300118C01 /* Main.storyboard */; };
 		37F41EFD21654BE400118C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F41EFC21654BE400118C01 /* Assets.xcassets */; };
 		37F41F0021654BE400118C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F41EFE21654BE400118C01 /* LaunchScreen.storyboard */; };
+		CDA2E28D2E87B1BC005EDA5F /* review.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CDA2E28C2E87B1BB005EDA5F /* review.mlmodel */; };
+		CDA2E2912E87BBE6005EDA5F /* ReviewClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CDA2E2902E87BBE6005EDA5F /* ReviewClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		37F41EFC21654BE400118C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37F41EFF21654BE400118C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37F41F0121654BE400118C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA2E28C2E87B1BB005EDA5F /* review.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = review.mlmodel; sourceTree = "<group>"; };
+		CDA2E2902E87BBE6005EDA5F /* ReviewClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ReviewClassifier.mlmodel; path = "Review Sentiment Analyzer/ReviewClassifier.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		37F41EE921654BE300118C01 = {
 			isa = PBXGroup;
 			children = (
+				CDA2E2902E87BBE6005EDA5F /* ReviewClassifier.mlmodel */,
 				37F41EF421654BE300118C01 /* Review Sentiment Analyzer */,
 				37F41EF321654BE300118C01 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				37F41EFC21654BE400118C01 /* Assets.xcassets */,
 				37F41EFE21654BE400118C01 /* LaunchScreen.storyboard */,
 				37F41F0121654BE400118C01 /* Info.plist */,
+				CDA2E28C2E87B1BB005EDA5F /* review.mlmodel */,
 			);
 			path = "Review Sentiment Analyzer";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA2E2912E87BBE6005EDA5F /* ReviewClassifier.mlmodel in Sources */,
 				37F41EF821654BE300118C01 /* ViewController.swift in Sources */,
 				37F41EF621654BE300118C01 /* AppDelegate.swift in Sources */,
+				CDA2E28D2E87B1BC005EDA5F /* review.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
